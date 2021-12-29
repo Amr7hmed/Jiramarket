@@ -1,0 +1,117 @@
+.filter-menu-button{
+    button {
+        border: none;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        color: #140735;
+        font-weight: 700;
+        margin-right: 15px;
+        padding: 10px 20px;
+        background-color: #e1e1e1;
+        transition: all ease 0.4s;
+        border-radius:5px !important;
+    }
+    button.active,
+    button:hover{
+        background-color: $theme-color1;
+        color: #fff;
+    }
+}
+
+// Filter Menu Slider
+
+.filter-menu-slider{
+    width: 100%;
+}
+
+// Grid Item
+.grid-item{
+    margin-bottom: 30px;
+    position: relative;
+    padding: 5px;
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) rotate(0deg);
+    animation: selected .4s 1 ease-in-out;
+
+    .product-img{
+        overflow: hidden;
+        position: relative;
+        a{
+            color: inherit;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            .img_swap{
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                -webkit-transition: all 0.5s ease 0s;
+                transition: all 0.5s ease 0s;
+                background-color: $white-color;
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    .product-content{
+        background-color:#e7e8ef;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+        padding: 70px 5px;
+        cursor: pointer;
+        color: #000;
+        transition: all ease-in-out .4s;
+        &:hover{
+            background-color: $theme-color1;
+            color: #fff;
+        }
+        h4{
+            white-space: nowrap !important;
+            overflow: hidden !important;
+            text-overflow: ellipsis !important;
+            width: 100%;
+            display: inline-block !important;
+            font-weight: 600;
+            font-size: 18px;
+        }
+    }
+}
+
+
+.hide{
+    display: none;
+    transition: display ease-in-out .4s;
+}
+
+
+@media screen and(max-width:767px) {
+    .filter-menu-button{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and(max-width:575px) {
+    .grid-item{
+        margin: 10px 40px;
+    }
+}
+
+
+  
+  @keyframes selected {
+    0% {
+      transform: scale(0) rotate(-180deg);
+    }
+    50% {
+        transform: scale(.5) rotate(-90deg);
+      }
+  }
+

@@ -1,0 +1,142 @@
+// Profile Pages Items
+
+.profile-content{
+    >div{
+        padding: 20px 0;
+    }
+}
+
+// Profile Icons
+
+.profile-icons{
+    padding: 3rem !important;
+    .nav-tabs{
+        padding: 10px;
+        border-radius: 9px;
+        border: 1px solid #d2d2d2;
+        height: auto;
+        -webkit-box-shadow: 0px 0px 3px 0px rgba(218 ,215 ,215 , 75%);
+        -moz-box-shadow: 0px 0px 3px 0px rgba(218 ,215 ,215 , 75%);
+        box-shadow: 0px 0px 3px 0px rgba(218 ,215 ,215 , 75%);
+        .nav-item{
+            display: inline-block;
+            width: 100%;
+            a{
+                color: $title-color;
+                font-size: 23px;
+                font-weight: 700;
+                margin: 10px 0;
+                span{
+                    display: inline-block;
+                    margin-left: 10px;
+                }
+            }
+            .nav-link.active{
+                border: 1px solid #d2d2d2 !important;
+                color: #444343;
+                background-color: #f1f1f1;
+            }
+        }
+    }
+    button{
+        width: 60%;
+        padding: 15px 10px;
+        font-size: 18px;
+        margin-bottom: 15px;
+        border-radius: 15px;
+        a{
+            color: inherit;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// Profile Decripton 
+
+.profile-dec{
+    padding: 3rem !important;
+    h3{
+        font-size: 22px;
+        color: $title-color;
+        font-weight: 700;
+        text-transform: none;
+        line-height: 1.3;
+        margin: 0 0 15px 0;   
+        border-bottom: 1px solid #dadada;
+        padding-bottom: 20px;
+    }
+    .form-group{
+        input{
+            padding: 30px 20px !important;
+        }
+        input.readonly{
+            background-color: #eee;
+        }
+    }
+    button{
+        width: 40%;
+        padding: 15px 10px;
+        font-size: 18px;
+        a{
+            color: inherit;
+            &:hover{
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+// Profile Page Addresses Item
+
+.profile-dec{
+    .table{
+        border: 1px solid #f1f1f1;
+        text-align: center;
+        thead{
+            background-color: #eee;
+        }
+        th ,
+        td{
+            border: 1px solid #f1f1f1;
+        }
+        .removeicon{
+            color: #e73f3f;
+            font-size: 16px;
+            transition: all ease-in-out .4s;
+            font-size: 20px;
+            &:hover{
+                color: $theme-color1;
+            }
+        }
+    }
+}
+
+
+// Profile Page Messages Item
+
+.profilemessages{
+    font-size: 20px;
+    font-weight: 600;
+    color: #9d9d9d;
+}
+
+// Profile Page Contact Support Item
+
+.profilecontact{
+    font-size: 18px;
+    font-weight: 700;
+    color: #908d8d;
+    a{
+        color: inherit;
+        transition: all ease-in-out .4s;
+        &:hover{
+            color: $theme-color1;
+            text-decoration: none;
+        }
+    }
+    p{
+        margin: 20px 0;
+    }
+}

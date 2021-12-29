@@ -1,0 +1,34 @@
+// Section Title
+
+.vs-shop-wrapper{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    .section-title{
+        margin-bottom: 50px;
+        .sec-title1{
+            font-size: 72px;
+            text-transform: capitalize;
+            line-height: 1;
+            margin-top: -0.14em;
+            margin-bottom: 20px;
+            color: black;
+            font-weight: 700;
+            margin: 0 0 15px 0;
+        }
+        .sec-title2{
+            color: $theme-color1;
+            font-weight: 200;
+            margin-bottom: 0;
+            text-transform: none;
+            font-size: 72px;
+            line-height: 1;
+            margin-top: -0.14em;
+        }
+        >img{
+            margin-top: 15px;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}
+

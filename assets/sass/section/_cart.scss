@@ -1,0 +1,154 @@
+// Table
+
+.cart_table{
+    border: 1px solid #eaf0f2;
+    margin-bottom: 45px;
+    text-align: center;
+    thead {
+        background-color: #ecf0f1;
+    }
+    th,td{
+        color: $title-color;
+        font-weight: 700;
+        text-transform: uppercase;
+        border: none;
+        padding: 27px 15px;
+        vertical-align: middle;
+    }
+    td{
+        text-transform: capitalize;
+        border: none;
+        border-bottom: 1px solid #f3f3f3;
+        color: #8b8b8b;
+        padding: 20px 10px;
+        position: relative;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    a{
+        color: inherit;
+    }
+
+}
+
+// Quantity Input
+
+.quantity{
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    .qty-input{
+        border: 2px solid $secondary-color;
+        width: 70px;
+        height: 30px;
+        font-size: 14px;
+        text-align: center;
+        color: #2c3e50;
+        font-weight: 700;
+        margin: 0 10px;
+        border-radius: 4px;
+        -moz-appearance: textfield;
+        appearance: textfield;
+    }
+    .qut-btn {
+        border: 2px solid $secondary-color;
+        background-color: transparent;
+        color: #b8c6d0;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: all ease 0.4s;
+        &:hover{
+            background-color: $theme-color1;
+        }
+    }
+}
+
+.cart_tablesm{
+    display: none;
+    text-align: center;
+        .tablesm-head,
+        .tablesm-itemes{
+            color: $title-color;
+            font-weight: 700;
+            text-transform: uppercase;
+            border: 1px solid #f3f3f3;
+            padding: 20px 10px;
+
+        }
+        .tablesm-itemes{
+            text-transform: capitalize;
+            color: #8b8b8b;
+            a{
+                color: inherit;
+            }
+        }
+
+        .tablesm-head{
+            position: relative;
+            .tablesm-item{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+        }
+}
+
+// Checkout
+
+.cart-checkout{
+    border: 2px solid $secondary-color;
+    .carttotle{
+        display: flex;
+        font-size: 20px;
+        font-weight: 700;
+        color: #7e7e7e;
+        padding: 25px 10px;
+        .totle-price{
+            margin-left: 10px;
+            display: inline-block;
+        }
+    }
+    .cartcheckout{
+        text-align: right;
+        padding: 25px 10px;
+        button{
+            margin: 0 !important;
+        }
+    }
+}
+
+// Media Quarey
+@media screen and(max-width:772px) {
+    .cart_table{
+        display: none;
+    }
+    .cart_tablesm{
+        display: flex;
+    }
+}
+
+// Remove Button 
+
+.cart-dc{
+    .remove{
+        color: $theme-color1;
+        padding: 0;
+        width: 30px;
+        height: 30px;
+        font-size: 22px;
+        border-radius: 4px;
+        transition: all ease 0.4s;
+        display: inline-block;
+        &:hover{
+            color: #c93636;
+        }
+
+    }
+}
