@@ -6,13 +6,13 @@
     .widget_title{
         font-size: 24px;
         font-weight: 600;
-        position: relative;
+        position: $postionrelative;
         margin-top: -0.3em;
         padding-bottom: 17px;
         margin-bottom: 23px;
         &::before{
             content: '';
-            position: absolute;
+            position: $postionabsolute;
             left: 0;
             bottom: 0;
             width: 40px;
@@ -70,7 +70,7 @@
     box-shadow: 3px 6px 0px 0px rgba(186, 186, 186, 0.43);
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
-    position: relative;
+    position: $postionrelative;
     z-index: 1;
     vertical-align: middle;
     overflow: hidden;
@@ -78,7 +78,7 @@
     margin-top: 20px;
     &:after {
         content: '';
-        position: absolute;
+        position: $postionabsolute;
         z-index: -1;
         background-color: $title-color;
         left: auto;
@@ -106,7 +106,7 @@
     height: 60px;
     border-radius: 50%;
     line-height: 60px;
-    text-align: center;
+    text-align: $aligncenter;
     opacity: 0;
     visibility: hidden;
     font-size: 26px;

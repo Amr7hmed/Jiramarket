@@ -28,7 +28,7 @@
     .actions{
         margin: 25px 0;
         .quantitystyle{
-            position: relative;
+            position: $postionrelative;
             display: inline-block;
             vertical-align: middle;
                 .qty-input{
@@ -36,7 +36,7 @@
                     appearance: textfield;
                     width: 75px;
                     height: 50px;
-                    text-align: center;
+                    text-align: $aligncenter;
                     border: 1px solid #f4f5fa;
                     color: #9a9999;
                     font-weight: 600;
@@ -45,7 +45,7 @@
                     padding-left: 0;
                     }
                 .qut-btn {
-                        position: absolute;
+                        position: $postionabsolute;
                         right: 10px;
                         border: none;
                         background-color: transparent;

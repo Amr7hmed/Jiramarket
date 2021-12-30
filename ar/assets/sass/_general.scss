@@ -1,0 +1,130 @@
+/*
+    font-family: 'Barlow', sans-serif;
+
+    font-family: 'Fraunces', serif;
+
+    font-family: 'Tajawal', sans-seri
+*/
+// Variable
+$fontAdvent: 'Cairo', sans-serif;
+$theme-color : #6c8700;
+$theme-color1 : rgba(189, 210, 57, 1);
+$white-color : #fff;
+$title-color: #000000;
+$icon-font: 'Fraunces', serif;
+$secondary-color: #f5f6fb;
+$theme-font2: 'Fraunces', serif;
+$postionrelative : relative;
+$postionabsolute : absolute;
+$alignleft: right;
+$alignrighet: left;
+$aligncenter: center;
+$fontlogo :'Lemonada', cursive;
+
+*{
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: $fontAdvent;
+    height: auto;
+    direction: rtl;
+}
+button{
+    transition: all ease 0.4s;
+    text-transform: none;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input:focus{
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+.mb-65{
+    margin-bottom: 65px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pl-20{
+    padding-right: 20px;
+}
+.pr-20{
+    padding-left: 20px;
+}
+.pb-30{
+    padding-bottom: 30px;
+    
+}
+.mtb-100{
+    margin: 100px 0;
+}
+.mtb-50{
+    margin: 50px 0;
+}
+a:hover{
+    text-decoration: none;
+}
+/*
+
+:root {
+    --theme-color: 189, 210, 57;
+}
+:root {
+    --title-color: #000000;
+    --body-color: #858585;
+    --body-color2: #959595;
+    --black-color: #000000;
+    --light-color: #c2c2c2;
+    --secondary-color: #f5f6fb;
+    --smoke-color: #f8f8f8;
+    --dark-color: #252323;
+    --light-dark-color: #0f1116;
+    --white-color: #ffffff;
+    --yellow-color: #fec624;
+    --success-color: #28a745;
+    --error-color: #dc3545;
+    --border-color: rgba(0,0,0,0.10);
+    --theme-font: 'Advent Pro', sans-serif;
+    --theme-font2: 'Lato',sans-serif;
+    --icon-font: 'Font Awesome 5 Pro';
+    --moving-ani-duration: 10s;
+    --ripple-ani-duration: 5s;
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    --bs-gradient: linear-gradient(180deg,hsla(0,0%,100%,.15),hsla(0,0%,100%,0));
+}
+
+
+*/

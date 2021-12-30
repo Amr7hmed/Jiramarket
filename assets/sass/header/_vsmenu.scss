@@ -9,14 +9,14 @@
     width: 0;
     height: 100%;
     transition: all ease 0.8s;
-    text-align: center;
+    text-align: $aligncenter;
     .vs-menu-area{
       width: 100%;
       max-width: 310px;
       background-color: #393838;
       border-right: 3px solid $theme-color;
       height: 100%;
-      position: relative;
+      position: $postionrelative;
       transition: all ease 1s;
       transition-delay: 0.5s;
       z-index: 1;
@@ -60,7 +60,7 @@
 .vs-menu-mobile {
   border: none;
   font-size: 22px;
-  position: absolute;
+  position: $postionabsolute;
   right: 10px;
   top: 10px;
   padding: 0;
@@ -130,11 +130,11 @@
 
 .menu-item-has-children,
 .childrenitems{
-  position: relative;
+  position: $postionrelative;
   transition: .3s;
   &::before{
     content: '>';
-    position: absolute;
+    position: $postionabsolute;
     top: 33%;
     left: -5%;
     font-size: 16px;
@@ -142,7 +142,7 @@
   }
   &::after{
     content: '+';
-    position: absolute;
+    position: $postionabsolute;
     top: 33%;
     right: 60%;
     font-size: 16px;
@@ -182,7 +182,7 @@
       color: $theme-color1;
       transition: all ease-in-out .4s;
       display: block;
-      position: relative;
+      position: $postionrelative;
       margin: 10px 0;
       &:hover{
         color: $white-color;
@@ -191,7 +191,7 @@
       span{
         background-color: #727272;
         border-radius: 50%;
-        position: absolute;
+        position: $postionabsolute;
         left: 15px;
       }
     }

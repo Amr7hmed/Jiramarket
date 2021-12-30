@@ -1,31 +1,31 @@
 
 .features-wrap1{
     margin-top: -60px;
-    position: relative;
+    position: $postionrelative ;
     z-index: 31;
     .vs-feature-box2{
-        background-color: black;
+        background-color: $title-color;
         padding: 30px;
-        position: relative;
+        position: $postionrelative ;
         -webkit-transition: all ease 0.4s;
         transition: all ease 0.4s;
         border-right: 1px solid rgba(255, 255, 255, 0.3);
-        color:#fff;
+        color:$white-color;
         display: flex;
-        align-items: center;
-        -webkit-box-align: center;
-        box-align: center;
+        align-items: $aligncenter;
+        -webkit-box-align: $aligncenter;
+        box-align: $aligncenter;
         &:hover{
             background-color: $theme-color1;
             .feature-icon{
-                color: #fff;
+                color: $white-color;
             }
         }
             .feature-icon{
                 width: 100px;
                 height: 100px;
                 line-height: 100px;
-                text-align: center;
+                text-align: $aligncenter;
                 font-size: 2.3rem;
                 border: 1px dashed $white-color;
                 margin-right: 25px;
@@ -44,7 +44,7 @@
                 }
             }
             .number{
-                    position: absolute;
+                    position: $postionabsolute;
                     right: 15px;
                     bottom: 5px;
                     color: #a59696;

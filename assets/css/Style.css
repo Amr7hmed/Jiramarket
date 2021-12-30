@@ -590,7 +590,7 @@ a:hover {
   position: relative;
   z-index: 31; }
   .features-wrap1 .vs-feature-box2 {
-    background-color: black;
+    background-color: #000000;
     padding: 30px;
     position: relative;
     -webkit-transition: all ease 0.4s;
@@ -645,7 +645,7 @@ a:hover {
       line-height: 1;
       margin-top: -0.14em;
       margin-bottom: 20px;
-      color: black;
+      color: #000000;
       font-weight: 700;
       margin: 0 0 15px 0; }
     .vs-shop-wrapper .section-title .sec-title2 {
@@ -715,7 +715,7 @@ a:hover {
     flex: 1;
     padding: 70px 5px;
     cursor: pointer;
-    color: #000;
+    color: #000000;
     transition: all ease-in-out .4s; }
     .grid-item .product-content:hover {
       background-color: #bdd239;
@@ -945,7 +945,7 @@ a:hover {
     font-size: 18px;
     font-weight: 600; }
     .paginatproudect a:hover {
-      color: #000; }
+      color: #000000; }
 
 .widget_categories {
   background-color: #f6f6f7;
