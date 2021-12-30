@@ -19,7 +19,7 @@
     window.onload = function(){
     setTimeout(function(){
         preloader.style.display="none";
-    },0)
+    },1000)
     }
 
 
